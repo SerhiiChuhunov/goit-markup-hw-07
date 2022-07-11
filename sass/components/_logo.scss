@@ -1,0 +1,19 @@
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--logo-color);
+}
+
+.logo-white {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--primary-white-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}

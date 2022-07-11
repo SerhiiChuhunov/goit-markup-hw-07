@@ -44,6 +44,12 @@ ul {
     list-style: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -182,12 +188,6 @@ ul {
 
 .contacts .item + .item {
     margin-left: 50px;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 /* Секция Герой */
