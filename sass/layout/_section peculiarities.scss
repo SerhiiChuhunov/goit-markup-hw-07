@@ -1,5 +1,22 @@
 .peculiarities {
     display: flex;
+
+    .item {
+        width: 270px;
+    }
+
+    .item+.item {
+        margin-left: 30px;
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--title-text-color);
+    }
 }
 
 .thumb {
@@ -10,23 +27,6 @@
     height: 120px;
     align-items: center;
     justify-content: center;
-}
-
-.peculiarities .item {
-    width: 270px;
-}
-
-.peculiarities .item+.item {
-    margin-left: 30px;
-}
-
-.peculiarities .title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--title-text-color);
 }
 
 .text {
