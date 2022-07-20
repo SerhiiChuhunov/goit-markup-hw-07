@@ -314,8 +314,15 @@ html {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-contract-label:focus-within > .icon-contract-checked,
 .checkbox:checked ~ .icon-contract-checked {
   opacity: 1;
+}
+
+.checkbox:focus-visible ~ .icon-contract-checked {
+  outline-offset: 2px;
+  outline: 2px solid #000000;
+  border-radius: 1px;
 }
 
 .form-modal-btn {
